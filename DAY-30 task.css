@@ -1,0 +1,341 @@
+body {
+    background-image: url(./images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -70px;
+    background-blend-mode: darken;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.headbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 75px;
+}
+.title {
+    color: #e1792a;
+    font-size: 25px;
+}
+.mainbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+}
+.mainbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.mainbars a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.mainbars a:hover {
+    color: #e1792a;
+    font-weight: bold;
+}
+.search01 {
+    display: flex;
+    margin-right: 200px;
+}
+.search-bar {
+    padding: 20px 55px;
+    border: 2px solid #e1792a;
+    border-radius: 5px 0 0 5px;
+    background-color: unset;
+    color: white;
+}
+.submit {
+    padding: 20px 35px;
+    background-color: #e1792a;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border: 2px solid #e1792a;
+    cursor: pointer;
+}
+
+.bdy2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 75px;
+    margin: 0 25px;
+    gap: 50px;
+}
+
+.body-text {
+    flex: 1;
+    color: white;
+    max-width: 600px;
+    line-height: 1.8em;
+}
+.body-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    line-height: 1.2em;
+}
+.devtext {
+    font-size: 75px;
+    color: #e1792a;
+}
+.para {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.join-us a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px -40px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: #e1792a;
+    color: black;
+    font-weight: bold;
+}
+.join-but ul{
+    list-style-type: none;
+}
+.join-us a:hover {
+    background-color: white;
+    color: #e1792a;
+}
+
+.login {
+    width: 400px;
+    margin-right: 165px;
+    justify-content: center;
+}
+.form-box {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+.l-title {
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.l-title h2 {
+    background-color: white;
+    color: #e1792a;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.input-box {
+    width: 100%;
+    padding: 15px 15px;
+    margin: 15px -15px;
+    border-radius: 5px;
+    background-color: unset;
+}
+.l-title2 {
+    text-align: center;
+}
+
+.l-title2 button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #e1792a;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.l-title2 button:hover {
+    background-color: white;
+    color: #e1792a;
+}
+
+.credits {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.signupclr {
+    color: white;
+}
+.signupclr:hover {
+    color: #e1792a;
+}
+.login-icons {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.icons2 i {
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+}
+.icons2 i:hover {
+    color: #e1792a;
+}
+
+    
+    /* body{
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        background-position: -800px;
+    }
+    .headbar{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .title{
+        text-align: center;
+        justify-content: center;
+    }
+    .mainbar{
+        text-align: center;
+        justify-content: end;
+        flex-direction: column;
+    }
+    .search01{
+        margin: 20px;
+        justify-content: center;
+    }
+    
+    .bdy2 {
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .body-text h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .devtext {
+        font-size: 50px;
+    }
+    .login {
+        width: 100%;
+        max-width: 400px;
+    } */
+
+    @media screen and (max-width: 500px) {
+
+    body {
+        background-position: center;
+        overflow-x: hidden;
+    }
+
+    .headbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 25px;
+        gap: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .mainbar ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .mainbar ul li {
+        margin: 5px 0;
+    }
+    .mainbars a {
+        font-size: 16px;
+    }
+
+    .search01 {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .search-bar {
+        width: 70%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .submit {
+        width: 30%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .bdy2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 25px;
+        margin: 0;
+    }
+
+    .body-text h1 {
+        font-size: 35px;
+        line-height: 1.3em;
+    }
+
+    .devtext {
+        font-size: 40px;
+    }
+
+    .para {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .join-us a {
+        font-size: 16px;
+        padding: 12px 25px;
+        margin: 15px 0;
+    }
+
+    .login {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .form-box {
+        padding: 20px;
+    }
+
+    .l-title h2 {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .input-box {
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .l-title2 button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .credits {
+        font-size: 13px;
+        line-height: 1.4em;
+    }
+
+    .login-icons {
+        font-size: 16px;
+    }
+
+    .icons2 i {
+        font-size: 25px;
+        padding: 6px;
+    }
+}
+
