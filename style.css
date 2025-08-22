@@ -40,7 +40,7 @@ body {
 }
 .search01 {
     display: flex;
-    margin-right: 200px;
+    margin-right: 50px;
 }
 .search-bar {
     padding: 20px 55px;
@@ -107,7 +107,7 @@ body {
 
 .login {
     width: 400px;
-    margin-right: 165px;
+    margin-right: 25px;
     justify-content: center;
 }
 .form-box {
@@ -148,7 +148,6 @@ body {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
 }
 .l-title2 button:hover {
     background-color: white;
@@ -159,6 +158,9 @@ body {
     font-size: 15px;
     text-align: center;
     margin-top: 20px;
+}
+.para2 a{
+    text-decoration: none;
 }
 .signupclr {
     color: white;
@@ -179,49 +181,8 @@ body {
     color: #e1792a;
 }
 
-    
-    /* body{
-        flex-wrap: wrap;
-        text-align: center;
-        flex-direction: column;
-        background-position: -800px;
-    }
-    .headbar{
-        text-align: center;
-        flex-wrap: wrap;
-    }
-    .title{
-        text-align: center;
-        justify-content: center;
-    }
-    .mainbar{
-        text-align: center;
-        justify-content: end;
-        flex-direction: column;
-    }
-    .search01{
-        margin: 20px;
-        justify-content: center;
-    }
-    
-    .bdy2 {
-        flex-direction: column;
-        text-align: center;
-        flex-wrap: wrap;
-    }
-    .body-text h1 {
-        font-size: 40px;
-        text-align: center;
-    }
-    .devtext {
-        font-size: 50px;
-    }
-    .login {
-        width: 100%;
-        max-width: 400px;
-    } */
 
-    @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
     body {
         background-position: center;
